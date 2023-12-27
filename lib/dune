@@ -3,4 +3,12 @@
  (name problems)
  (inline_tests)
  (libraries str core ppx_deriving core_kernel.pairing_heap)
- (preprocess (pps ppx_inline_test ppx_compare ppx_hash ppx_deriving.std ppx_deriving.eq ppx_deriving.ord ppx_sexp_conv)))
+ (preprocess
+  (pps
+   ppx_inline_test
+   ppx_compare
+   ppx_hash
+   ppx_deriving.std
+   ppx_deriving.eq
+   ppx_deriving.ord
+   ppx_sexp_conv)))
